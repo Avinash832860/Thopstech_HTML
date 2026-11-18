@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple form</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h1>Course Registration form</h1>
+        <label for="Firstname">Firstame</label>
+        <input type="text" id="firstname" name="firstname" placeholder="enter your firstname">
+        <br>
+        <br>
+        <label for="Surname">Surname</label>
+        <input type="text" id="Surname" name="Surname" placeholder="enter your lastname">
+        <br>
+        <br>
+        <label for="MobileNumber">MobileNumber</label>
+        <input type="tel" name="MobileNumber">
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" name="Email">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <br>
+        <br>
+        <label for="Confirmpassword">ConfirmPassword</label>
+        <input type="password" name="Confirmpassword">
+        <br>
+        <br>
+        <label for="DOB">DOB</label>
+        <input type="date" id="dob" name="dob" min="1900-01-01" max="2030-12-31">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="enter your age">
+        <br>
+        <br>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="prefer not to say">Other
+        <br>
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        <br><br>
+        <label for="UploadPicture">UploadPicture</label>
+        <input type="file" name="file">
+        <br>
+        <br>
+        <input type="reset">
+        <br>
+        <br>
+        <label>Course Details</label>
+        <br><br>
+        <label for="SelectCourse">SelectCourse</label>
+        <select name="Course" id="Course" required>
+            <option value="">Select</option>
+            <option value="javaFullStack">javaFullStack</option>
+            <option value="PythonFullStack">PythonFullStack</option>
+            <option value="CoreJava">CoreJava</option>
+            <option value="AI & ML">AI & ML</option>
+        </select>
+        <br>
+        <br>
+        <label for="">DeliveryMode</label>
+        <input type="radio" name="DeliveryMode" value="Online">Online
+        <input type="radio" name="DeliveryMode" value= "Offine">Offline
+        <br>
+        <br>
+        <label for="InstituteName">InstituteName</label>
+        <input type="text" name="InstituteName">
+        <br>
+        <br>
+        <label for="Comments">Comments</label>
+        <textarea name="Comments" id="" row="10" cols="100"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+        
+    </form>
+</body>
+
+</html>
